@@ -64,4 +64,15 @@ const styles = StyleSheet.create({
         color: '#FFF',
         fontSize: 20
     },
+    button: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        margin: 15,
+        backgroundColor: '#41Aef4',
+        padding: 10,
+    },
+    buttontext: {
+        color: '#FFF',
+        fontSize: 25,
+    }
 })
