@@ -75,4 +75,4 @@ const styles = StyleSheet.create({
         color: '#FFF',
         fontSize: 25,
     }
-})
+});
