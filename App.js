@@ -17,4 +17,19 @@ export default function App() {
             alert('Levemente acima do peso! ' + imc.toFixed(2));
         }
     }
+    return (
+        <View style={Styles.container}>
+            <Text styles={styles.title}></Text>
+
+        <TextInput
+        style={styles.input}
+        value={peso}
+        onChangeText={ (peso) => setPeso(peso) }
+        placeholder="peso (kg)"
+        keyboardType="numeric"
+        />
+
+        
+        </View>
+    )
 };
