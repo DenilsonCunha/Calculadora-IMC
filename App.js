@@ -46,3 +46,22 @@ export default function App() {
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+    title:{
+        textAlign: 'center',
+        marginTop: 20,
+        fontSize: 30
+    },
+    input: {
+        backgroundColor: '#121212',
+        borderRadius: 10,
+        margin: 15,
+        padding: 10,
+        color: '#FFF',
+        fontSize: 20
+    },
+})
