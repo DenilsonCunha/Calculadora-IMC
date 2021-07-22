@@ -1,5 +1,5 @@
 import React, {useState} from 'react;'
-import { Text, View, StyleSheet, TextInput } from 'react-native';
+import { Text, View, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
 
 export default function App() {
     const [peso, setPeso]= useState('');
@@ -29,7 +29,18 @@ export default function App() {
         keyboardType="numeric"
         />
 
-        
+        <TextInput
+        style={styles.input}
+        value={altura}
+        onChangeText={ (altura) => setAltura(altura) }
+        placeholder="altura (cm)"
+        keyboardType="numeric"
+        />
+
+        <TouchableOpacity>
+            style={styles.button}
+            onPress={handleSubmit}
+        </TouchableOpacity>
         </View>
     )
 };
